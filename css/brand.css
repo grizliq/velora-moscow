@@ -1,0 +1,24 @@
+/* Velora: фирменный стиль поверх шаблона, подключается последним */
+body { background: #110E0D; color: #FFF2D0; }
+.page-bg { background: url("/assets/bg/bg.jpg") center top / 100% auto no-repeat, #110E0D !important; }
+.lb-hero-official__btn, .vl-bonus__cta, .vl-seo__btn, .lb-modal__btn, .lb-header-logo__btn, .hub-btn, .lb-slider-cards__btn {
+  background: linear-gradient(180deg, #F9B921 15%, #AD7006 100%) !important; color: #140D03 !important; border-radius: 16px !important;
+  box-shadow: 0 10px 26px rgba(249, 185, 33, .28) !important; }
+.lb-hero-official__btn { padding: 0 34px; justify-content: center; }
+.lb-hero-official__btn--alt { background: #251202 !important; color: #FFF2D0 !important; border: 1px solid #FFF2D0 !important; box-shadow: none !important; }
+.lb-hero-official { background: linear-gradient(180deg, rgba(17,14,13,.15), rgba(17,14,13,.85) 70%, #110E0D), url("/assets/banners/hero-bg.webp") center / cover;
+  border-radius: 28px; border: 1px solid rgba(249, 185, 33, .22); margin-top: 14px; }
+.lb-hero-official__logo { width: min(360px, 78%); height: auto; filter: drop-shadow(0 8px 24px rgba(0,0,0,.6)); }
+.lb-hero-official__title, .vl-bonus__title, .lb-adv-center__title, .vl-two__title, .vl-seo__title, .lb-modal__title { font-family: "Cinzel", Georgia, serif !important; font-weight: 900; letter-spacing: .02em; }
+.lb-hero-official__title-blue, .vl-bonus__title-blue, .vl-seo__title-blue, .vl-two__title span {
+  background: linear-gradient(180deg, #FFE08A 0%, #F9B921 45%, #AD7006 100%); -webkit-background-clip: text; background-clip: text; color: transparent !important; }
+.lb-header-logo__img, .lb-footer-bar__logo { height: 34px; width: auto; }
+.lb-adv-center__icon { background: none !important; border: 0 !important; box-shadow: none !important; width: 76px; height: 76px; }
+.lb-adv-center__icon img { width: 76px; height: 76px; }
+.lb-adv-center__card, .lb-bonus-cards__card, .vl-stats li, .vl-two__col, .vl-seo__grid, .hub a, .lb-slider-cards__card { border-color: rgba(249, 185, 33, .22) !important; }
+.lb-bonus-cards__icon { object-fit: contain; }
+.lb-slider-cards__media { aspect-ratio: 5 / 6; object-fit: cover; height: auto; border-radius: 14px; }
+.lb-modal__card { background: linear-gradient(160deg, #2B2219 0%, #1A1512 60%, #110E0D 100%) !important; border: 1px solid rgba(249,185,33,.35); }
+.lb-modal__title { color: #FFE08A !important; }
+.lb-modal__text, .lb-modal__eyebrow { color: #FFF2D0 !important; }
+.vl-seo__h3, .vl-two__col h3 { color: #F9B921; }

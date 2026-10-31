@@ -1,33 +1,13 @@
-/* Velora Casino — тёмная тема (семантика).
-   Подключать после tokens.css */
-
+/* Velora — фирменная тема: тёплый чёрный, крем, золото. Подключать после tokens.css */
 :root {
-  /* Роли темы */
-  --vl-bg:            #0F1013;   /* фон страницы */
-  --vl-surface:       #16181C;   /* карточки, панели */
-  --vl-surface-2:     #1E2026;   /* второй уровень (шапка) */
-  --vl-panel:         #23262E;
-  --vl-text:          #FFFFFF;
-  --vl-text-soft:     #D0D3DA;
-  --vl-text-muted:    #8B92A0;
-
-  /* Бренд-акценты Velora */
-  --vl-red:           #C72827;
-  --vl-red-hot:       #A01F1E;
-  --vl-red-soft:      #E24140;
-  --vl-amber:         #FF9D00;   /* цвет логотипа */
-  --vl-amber-hi:      #FFBB00;
-
-  /* Совместимость со старыми lb-c-* переменными шапки/hero */
-  --lb-c-2589FF:      #C72827;   /* accent → красный Velora */
-  --lb-c-25475C:      #D0D3DA;
-  --lb-c-111117:      #FFFFFF;
-  --lb-c-FFFFFF:      #FFFFFF;
-  --lb-c-5A7EA8:      #8B92A0;
-  --lb-c-2A7AD9:      #A01F1E;
-  --lb-c-262D36:      #23262E;
-  --lb-c-06060C:      #0F1013;
-  --lb-c-09091C:      #16181C;
-
+  --vl-bg: #110E0D; --vl-surface: #1A1512; --vl-surface-2: #211A14; --vl-panel: #2B2219;
+  --vl-text: #FFF2D0; --vl-text-soft: #EADFC3; --vl-text-muted: #A8997E;
+  --vl-red: #F9B921; --vl-red-hot: #AD7006; --vl-red-soft: #FFD25E;
+  --vl-amber: #F9B921; --vl-amber-hi: #FFE08A;
+  --lb-accent: #F9B921;
+  --lb-font-display: "Cinzel", Georgia, "Times New Roman", serif;
+  --lb-font-body: "Inter", Arial, Helvetica, sans-serif;
+  --lb-c-2589FF: #F9B921; --lb-c-25475C: #EADFC3; --lb-c-111117: #FFF2D0; --lb-c-FFFFFF: #FFF2D0;
+  --lb-c-5A7EA8: #A8997E; --lb-c-2A7AD9: #AD7006; --lb-c-262D36: #2B2219; --lb-c-06060C: #110E0D; --lb-c-09091C: #1A1512;
   color-scheme: dark;
 }
