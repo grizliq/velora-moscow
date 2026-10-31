@@ -18,3 +18,11 @@
 .hub a small { display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.4; opacity: .75; }
 @media (max-width: 900px) { .hub { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .hub { grid-template-columns: 1fr; } }
+
+/* Правки шаблона: преимущества 4 в ряд без подчёркивания, кнопка игр по центру */
+.lb-adv-center__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.lb-adv-center__card-title { font-size: clamp(15px, 1.5vw, 19px); }
+.lb-adv-center__card, .lb-adv-center__card:hover, .lb-adv-center__card-title { text-decoration: none; }
+@media (max-width: 900px) { .lb-adv-center__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .lb-adv-center__grid { grid-template-columns: 1fr; } }
+.lb-slider-cards__btn { display: flex; width: max-content; margin: 24px auto 0; padding: 0 28px; }
